@@ -1,0 +1,39 @@
+html{
+  font-size: 14px;
+}
+body{
+  margin-top: 5.25rem;
+  font-family: "Work Sans", sans-serif;
+  background-color: rgb(255, 242, 242);
+}
+h1{
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgrb(32, 64, 86);
+}
+h4{
+  font-size: 1rem;
+  font-weight: bold;
+  color: rgrb(32, 64, 86);
+}
+p{
+  color: rgb(74, 74, 74);
+}
+.card{
+  /* for the form of the card */
+  height: 12.5rem;
+  background-color: rgb(32, 64, 86);
+  border: 4px solid #fff;
+  border-radius: 8px;
+  /* for the content of the card*/
+  color: rgb(255, 255, 255);
+  font-size: 7rem;
+  font-weight: 900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover{
+  border-color: #00ff00;
+  cursor: pointer;
+}
